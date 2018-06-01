@@ -19,3 +19,8 @@ With Buildstarter, Open Source teams don't need to worry about which features to
 * [Solidity Language Reference](http://solidity.readthedocs.io/en/v0.4.24/)
 * [Ethereum Blockchain Explorer](https://etherscan.io/)
 * [Web3Js Reference](https://github.com/ethereum/wiki/wiki/JavaScript-API)
+
+## Wallets
+
+* [MetaMask](https://metamask.io/)
+* [My Crypto](https://mycrypto.com)
