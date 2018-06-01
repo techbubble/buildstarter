@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Buildstarter Sample</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .top-100 {
+            margin-top: 100px;
+        }
+
+        .top-20 {
+            margin-top: 20px;
+        }
+
+        .hidden {
+            display: none;
+        }
+        label { margin-right: 20px; }
+        .btn { margin-right: 5px; }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#">Buildstarter</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+
+    <main role="main" class="container">
+
+        <div class="row top-100">
+            <h1>Buildstarter Example</h1>
+        </div>
+
+        <div class="row top-20">
+            <form class="form-inline">
+                <label>ID</label>
+                <input type="text" class="form-control mb-2 mr-sm-2" id="field-id" placeholder="1">
+
+                <label>Topic</label>
+                <input type="text" class="form-control mb-2 mr-sm-2" id="field-topic" placeholder="Topic">
+
+                <label>Goal (ETH)</label>
+                <input type="text" class="form-control mb-2 mr-sm-2" id="field-goal" placeholder="2">
+
+                <a class="btn btn-primary mb-2" id="save-button">Add Feature</a>
+                <a class="btn btn-danger mb-2" id="clear-button">Clear All Features</a>
+            </form>
+        </div>
+
+
+        <div class="row top-20">
+            <table class="table">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">ID</th>
+                        <th scope="col">Topic</th>
+                        <th scope="col">Goal</th>
+                        <th scope="col">Funding</th>
+                        <th scope="col"></th>
+                    </tr>
+                </thead>
+                <tbody id="tbody">
+                </tbody>
+            </table>
+        </div>
+
+    </main>
+
+    <!-- /.container -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/require.js/2.3.5/require.min.js"></script>
+    <script src="buildstarter.js" /></script>
+</body>
+
+</html>
