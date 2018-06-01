@@ -28,7 +28,7 @@ requirejs(["node_modules/bignumber.js/bignumber.min.js"], function (BigNumber) {
             return response.json();
         })
         .then(function (data) {
-            initializeWeb3(data.abi, configs.ropsten);
+            initializeWeb3(data.abi, configs.localhost);
         });
 
 

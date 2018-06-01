@@ -146,6 +146,16 @@ contract Buildstarter {
         testingMode = mode;
     }
 
+    function getRegistrationFee
+                            (
+                            ) 
+                            external
+                            view
+                            returns(uint256)
+    {
+        return registrationFee;
+    }
+
     /**
     * @dev Sets registration fee
     */    
