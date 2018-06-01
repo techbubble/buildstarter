@@ -6,6 +6,11 @@ pragma solidity ^0.4.18;
 contract Buildstarter {
     using SafeMath for uint256;
 
+    /********************************************************************************************/
+    /*                                       DATA VARIABLES                                     */
+    /********************************************************************************************/
+
+
     bool private testingMode = false;
     bool private operational = true;                                    // Blocks all state changes throughout the contract if false
     address private contractOwner;                                      // Account used to deploy contract
@@ -26,6 +31,10 @@ contract Buildstarter {
     }
 
     mapping(uint256 => Feature) features; 
+
+    /********************************************************************************************/
+    /*                                       EVENT DEFINITIONS                                  */
+    /********************************************************************************************/
 
 
     event Register          // Fired when a new feature is registered
@@ -50,6 +59,11 @@ contract Buildstarter {
                                 uint256 value,
                                 uint256 funding
                             );
+
+    /********************************************************************************************/
+    /*                                       FUNCTION MODIFIERS                                 */
+    /********************************************************************************************/
+
 
     /**
     * @dev Modifier that requires the "operational" boolean variable to be "true"
@@ -87,6 +101,10 @@ contract Buildstarter {
     {
         contractOwner = msg.sender;
     }    
+
+    /********************************************************************************************/
+    /*                                       UTILITY FUNCTIONS                                  */
+    /********************************************************************************************/
 
 
    /**
@@ -142,6 +160,12 @@ contract Buildstarter {
         require(fee >= 0);
         registrationFee = fee;
     }
+
+
+    /********************************************************************************************/
+    /*                                     SMART CONTRACT FUNCTIONS                             */
+    /********************************************************************************************/
+
 
     function register
                             (   
@@ -294,6 +318,12 @@ contract Buildstarter {
 
 
 }   
+
+    /********************************************************************************************/
+    /*                                       SAFE MATH LIB                                      */
+    /********************************************************************************************/
+
+
 
 /*
 LICENSE FOR SafeMath
