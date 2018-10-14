@@ -93,7 +93,7 @@ contract Buildstarter {
     * @dev Contract constructor
     *
     */
-    function Buildstarter
+    constructor
                             ( 
                                 
                             ) 

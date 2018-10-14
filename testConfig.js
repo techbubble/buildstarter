@@ -18,6 +18,11 @@ var Config = async function(accounts) {
 
 
     let owner = accounts[0];
+
+    // Buildstarter.deployed().then(function(instance) {
+    //     console.log(instance.address);
+    //  });
+
     let buildstarter = await Buildstarter.new();
 
     return {

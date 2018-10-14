@@ -1,7 +1,7 @@
 var HDWalletProvider = require("truffle-hdwallet-provider");
 
 // Only for testing...not actual production values
-var mnemonic = "motor tuna throw pupil put where rule defense nothing impulse tag input";
+var mnemonic = "bean price scare raven jelly permit elder slice wagon skill dad similar";
 
 module.exports = {
   networks: {

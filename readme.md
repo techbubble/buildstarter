@@ -1,6 +1,6 @@
 # Buildstarter
 
-Buildstarter is like Kickstarter, but for Open Source where the community funds features with cryptocurrency that that team should build. Anyone can propose a feature for a small registration fee by calling the method “register.” Features have a funding goal and funding deadline. Anyone can call “fund” and contribute toward the funding goal.
+Buildstarter is like Kickstarter, but for Open Source where the community funds features with cryptocurrency that the team should build. Anyone can propose a feature for a small registration fee by calling the method “register.” Features have a funding goal and funding deadline. Anyone can call “fund” and contribute toward the funding goal.
 
 When the funding deadline passes, two possibilities exist:
 
