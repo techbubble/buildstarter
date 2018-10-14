@@ -16,7 +16,7 @@ contract Buildstarter {
     address private contractOwner;                                      // Account used to deploy contract
 
     uint256 private constant weiMultiplier = 10 ** uint256(18);  
-    uint256 public registrationFee = 173726833183400000;                // Approximately $100
+    uint256 public registrationFee = 500000000000000000;                // Approximately $100
 
 
     struct Feature {
