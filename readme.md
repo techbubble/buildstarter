@@ -9,6 +9,14 @@ When the funding deadline passes, two possibilities exist:
 
 With Buildstarter, Open Source teams don't need to worry about which features to focus on next and how to fund their development. The community will speak with its cryptowallet.
 
+## Install
+
+This repository contains Smart Contract code in Solidity (using Truffle), tests (also using Truffle) and a simple dApp (using HTML and JS).
+
+To install, download or clone the repo, then:
+
+npm install
+
 ## Resources
 
 * [How does Ethereum work anyway?](https://medium.com/@preethikasireddy/how-does-ethereum-work-anyway-22d1df506369)
